@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Catálogo — Portfólio</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;700&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="grain"></div>
+
+<header class="topbar">
+  <div class="topbar-inner">
+    <a href="#topo" class="brand">CARLOS<span class="brand-dot">.</span>SILVA</a>
+    <nav class="nav">
+      <a href="#trabalhos">trabalhos</a>
+      <a href="#sobre">sobre</a>
+      <a href="#contato">contato</a>
+    </nav>
+    <button class="nav-toggle" id="navToggle" aria-label="Abrir menu" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</header>
+
+<main id="topo">
+
+  <!-- HERO -->
+  <section class="hero">
+    <div class="hero-inner">
+      <p class="eyebrow mono">/// catálogo pessoal de projetos</p>
+      <h1 class="hero-title">
+        Eu construo<br>
+        coisas que <span class="accent">funcionam</span><span class="cursor" aria-hidden="true">_</span>
+      </h1>
+      <p class="hero-sub">
+        Desenvolvedor focado em produtos web. Esta página reúne projetos
+        selecionados — cada um catalogado com o problema, a stack e o resultado.
+      </p>
+
+      <dl class="specs mono">
+        <div class="spec">
+          <dt>BASE</dt>
+          <dd>São Paulo, BR</dd>
+        </div>
+        <div class="spec">
+          <dt>FOCO</dt>
+          <dd>Front-end · Produto</dd>
+        </div>
+        <div class="spec">
+          <dt>STATUS</dt>
+          <dd><span class="dot-live"></span> disponível p/ projetos</dd>
+        </div>
+      </dl>
+    </div>
+  </section>
+
+  <!-- TRABALHOS -->
+  <section class="works" id="trabalhos">
+    <div class="section-head">
+      <h2>Trabalhos catalogados</h2>
+      <p class="mono section-count">04 entradas</p>
+    </div>
+
+    <div class="work-list" id="workList">
+      <!-- Cards injetados via JS -->
+    </div>
+  </section>
+
+  <!-- SOBRE -->
+  <section class="about" id="sobre">
+    <div class="about-inner">
+      <p class="eyebrow mono">/// nota de rodapé</p>
+      <h2>Sobre o arquivo</h2>
+      <p class="about-text">
+        Comecei a programar por curiosidade e fiquei pela satisfação de ver
+        uma ideia sair do papel e virar algo que as pessoas realmente usam.
+        Hoje trabalho principalmente com interfaces web, prestando atenção
+        tanto ao código por trás quanto à experiência de quem usa.
+        Esse catálogo cresce conforme termino novos projetos —
+        sinta-se em casa para explorar.
+      </p>
+      <div class="tags mono">
+        <span>HTML</span><span>CSS</span><span>JavaScript</span>
+        <span>React</span><span>Node</span><span>Git</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTATO -->
+  <section class="contact" id="contato">
+    <div class="contact-inner">
+      <p class="eyebrow mono">/// linha aberta</p>
+      <h2>Vamos conversar<span class="accent">.</span></h2>
+      <p class="contact-text">Tem um projeto em mente ou só quer trocar ideia? Me escreve.</p>
+      <a href="mailto:seuemail@exemplo.com" class="contact-link">
+        seuemail@exemplo.com
+        <svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path d="M4 14L14 4M14 4H6M14 4V12" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+        </svg>
+      </a>
+      <div class="social mono">
+        <a href="https://github.com/" target="_blank" rel="noopener">GitHub</a>
+        <a href="https://linkedin.com/" target="_blank" rel="noopener">LinkedIn</a>
+        <a href="#" target="_blank" rel="noopener">Instagram</a>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer class="footer mono">
+  <p>© <span id="year"></span> Carlos Silva — catálogo atualizado continuamente.</p>
+  <a href="#topo" class="back-top">voltar ao topo ↑</a>
+</footer>
+
+<!-- MODAL DE PROJETO -->
+<div class="modal-overlay" id="modalOverlay">
+  <div class="modal" role="dialog" aria-modal="true" aria-labelledby="modalTitle">
+    <button class="modal-close" id="modalClose" aria-label="Fechar">✕</button>
+    <p class="mono modal-index" id="modalIndex">[01]</p>
+    <h3 id="modalTitle"></h3>
+    <p class="modal-desc" id="modalDesc"></p>
+    <div class="modal-tags mono" id="modalTags"></div>
+    <div class="modal-links" id="modalLinks"></div>
+  </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
