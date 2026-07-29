@@ -5,7 +5,7 @@
 const projects = [
   {
     title: "Landing Page Churrascaria e Pizzaria",
-    tagline: "Lamding Page simples para uma churrascaria.",
+    tagline: "Landing Page simples para uma churrascaria.",
     description:
       "Site feito para uma churrascaria real localizada em Guarulhos, projeto feito para familiares. ",
     stack: ["HTML", "CSS", "JavaScript"],
