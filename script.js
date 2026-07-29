@@ -4,53 +4,18 @@
 ============================================ */
 const projects = [
   {
-    title: "Painel financeiro",
-    tagline: "Dashboard de controle de gastos pessoais com gráficos em tempo real.",
+    title: "Landing Page Churrascaria e Pizzaria",
+    tagline: "Lamding Page simples para uma churrascaria.",
     description:
-      "Aplicação web para acompanhar receitas e despesas mensais. Os dados são salvos localmente e o usuário pode categorizar transações, ver tendências em gráficos e exportar relatórios em PDF.",
-    stack: ["React", "Chart.js", "LocalStorage"],
-    cmd: "$ open --tag=produto",
-    links: [
-      { label: "ver projeto →", url: "#" },
-      { label: "código fonte →", url: "#" },
-    ],
-  },
-  {
-    title: "Loja de plantas",
-    tagline: "E-commerce simples com carrinho funcional e checkout simulado.",
-    description:
-      "Site de vendas para uma loja fictícia de plantas ornamentais. Inclui catálogo filtrável, carrinho persistente entre sessões e um fluxo de checkout em três etapas, tudo sem backend.",
+      "Site feito para uma churrascaria real localizada em Guarulhos, projeto feito para familiares. ",
     stack: ["HTML", "CSS", "JavaScript"],
-    cmd: "$ open --tag=ecommerce",
+    cmd: "Em andamento...",
     links: [
-      { label: "ver projeto →", url: "#" },
-      { label: "código fonte →", url: "#" },
+      { label: "ver projeto →", url: "https://site-churrascaria-xi.vercel.app/" },
+      { label: "código fonte →", url: "https://github.com/gabriel12232/site-churrascaria" },
     ],
   },
-  {
-    title: "Clima agora",
-    tagline: "Consulta de previsão do tempo integrada a uma API pública.",
-    description:
-      "Ferramenta que busca dados climáticos em tempo real por cidade, exibindo temperatura, sensação térmica e previsão para os próximos dias com ícones animados.",
-    stack: ["JavaScript", "API REST", "CSS Grid"],
-    cmd: "$ open --tag=api",
-    links: [
-      { label: "ver projeto →", url: "#" },
-      { label: "código fonte →", url: "#" },
-    ],
-  },
-  {
-    title: "Lista de tarefas",
-    tagline: "Gerenciador de tarefas com categorias e prioridades.",
-    description:
-      "Aplicativo de produtividade onde o usuário organiza tarefas por categoria e prioridade, com filtros, busca e indicador visual de prazos próximos.",
-    stack: ["JavaScript", "LocalStorage", "CSS"],
-    cmd: "$ open --tag=produtividade",
-    links: [
-      { label: "ver projeto →", url: "#" },
-      { label: "código fonte →", url: "#" },
-    ],
-  },
+  
 ];
 
 /* ============================================
