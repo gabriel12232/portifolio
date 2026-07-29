@@ -15,7 +15,32 @@ const projects = [
       { label: "código fonte →", url: "https://github.com/gabriel12232/site-churrascaria" },
     ],
   },
+
+   {
+    title: "E-commerce estatico mimozinho",
+    tagline: "Um e-commerce estatico feito para loja de moda infantil",
+    description:
+      "Projeto desenvolvido no curso de Design Web com a proposta de criar um e-commerce utilizando apenas HTML. O site simula uma loja de moda infantil e foi criado para colocar em prática os conceitos aprendidos durante o curso. ",
+    stack: ["HTML"],
+    cmd: "Completo",
+    links: [
+      { label: "ver projeto →", url: "https://mimozinho-gg5n.vercel.app/" },
+      { label: "código fonte →", url: "https://github.com/gabriel12232/mimozinho" },
+    ],
+  },
   
+   {
+    title: "Calculadora simples",
+    tagline: "Uma simples calculadora ",
+    description:
+      "Calculadora simples desenvolvida durante meus primeiros estudos em programação. O projeto foi criado para praticar HTML, CSS e JavaScript, aplicando conceitos de lógica de programação e interação com o usuário. ",
+    stack: ["HTML", "CSS", "JavaScript"],
+    cmd: "Completo",
+    links: [
+      { label: "ver projeto →", url: "https://calculadora-do-gabz.vercel.app/" },
+  
+    ],
+  },
 ];
 
 /* ============================================
