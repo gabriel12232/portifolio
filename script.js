@@ -41,6 +41,19 @@ const projects = [
   
     ],
   },
+
+  {
+    title: "Sistema de Agendamento para Barbearia",
+    tagline: "Sistema completo para gerenciamento de clientes, serviços e agendamentos de uma barbearia. ",
+    description:
+      "Sistema desenvolvido para uma barbearia, permitindo que clientes escolham serviços, barbeiros, datas e horários disponíveis para realizar agendamentos. O projeto conta com integração ao Supabase para armazenamento dos dados e um painel administrativo para gerenciar clientes, serviços, profissionais e agendamentos. ",
+    stack: ["HTML", "CSS", "JavaScript , Supabase"],
+    cmd: "Completo",
+    links: [
+      { label: "ver projeto →", url: "https://barbearia-agendamento-chi.vercel.app/" },
+   { label: "código fonte →", url: "https://github.com/gabriel12232/barbearia-agendamento" },
+    ],
+  },
 ];
 
 /* ============================================
