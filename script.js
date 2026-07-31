@@ -11,8 +11,8 @@ const projects = [
     stack: ["HTML", "CSS", "JavaScript"],
     cmd: "Em andamento...",
     links: [
-      { label: "ver projeto →", url: "https://site-churrascaria-xi.vercel.app/" },
-      { label: "código fonte →", url: "https://github.com/gabriel12232/site-churrascaria" },
+      { label: "ver projeto →", url: "https://site-carraro-s-grill.vercel.app/" },
+      { label: "código fonte →", url: "https://github.com/gabriel12232/Site-Carraro-s-Grill" },
     ],
   },
 
