@@ -54,6 +54,19 @@ const projects = [
    { label: "código fonte →", url: "https://github.com/gabriel12232/barbearia-agendamento" },
     ],
   },
+
+   {
+    title: "Landing Page Kumon Vila Flórida",
+    tagline: "Landing page desenvolvida para a unidade Kumon Vila Flórida, apresentando a metodologia de ensino, os cursos oferecidos e os canais de contato de forma moderna e responsiva. ",
+    description:
+      "Projeto desenvolvido para a unidade Kumon Vila Flórida com o objetivo de fortalecer sua presença digital e facilitar o contato com novos alunos e responsáveis. A landing page apresenta a metodologia Kumon, informações sobre os cursos de Matemática, Português e Inglês, diferenciais da unidade, depoimentos, perguntas frequentes e chamadas para ação estratégicas. O site foi desenvolvido com foco em desempenho, responsividade e experiência do usuário, garantindo uma navegação intuitiva tanto em computadores quanto em dispositivos móveis. ",
+    stack: ["HTML", "CSS", "JavaScript" ,],
+    cmd: "Em desenvolvimento...",
+    links: [
+      { label: "ver projeto →", url: "https://site-kumon.vercel.app/" },
+   { label: "código fonte →", url: "https://github.com/gabriel12232/Site-Kumon" },
+    ],
+  },
 ];
 
 /* ============================================
